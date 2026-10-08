@@ -1,0 +1,36 @@
+# Safe Info landing page
+
+A responsive, dependency-free portfolio for four Claude Code plugins. “Safe Info” is a working brand inferred from the workspace name.
+
+## Run locally
+
+```sh
+npm --prefix site run dev
+```
+
+Open http://127.0.0.1:4173. Check JavaScript syntax with `npm --prefix site run check`.
+
+The complete static website is in `site/dist/`. There is no build step. Publish that directory with a static web host. Hosted deployment was unavailable in the creation session; no public URL has been created.
+
+## Content sources
+
+Descriptions and installation instructions were checked against local source and README files in:
+
+- `codes/claude-env-badge`: `hooks/badge.ts`, README
+- `codes/claude-blast-radius`: `hooks/format.ts`, README
+- `codes/personal/claude-footprint`: `hooks/view.ts`, README
+- `codes/personal/2brain`: `hooks/2brain-recall-inject.sh`, README
+- `codes/personal/claude-marketplace`: marketplace manifest, README
+
+The marketplace README marks footprint and 2brain repositories as private; the page reflects that access requirement. Terminal examples use illustrative data, not live infrastructure. No analytics, remote fonts, or external scripts are loaded.
+
+## Features and verification
+
+- Four interactive terminal examples with keyboard-accessible tabs.
+- An 18-second env-badge video with native playback controls, inline mobile playback, and no autoplay. Converted from the repository's `demo/env-badge-demo.gif`; the other plugin repositories had no video assets. The MP4 and poster are stored locally in `site/dist/media/`.
+- Independent plugin cards with repository links.
+- Installation selector and copy button with success/failure feedback.
+- Native expandable FAQ, responsive layout, reduced-motion support, and custom favicon.
+- JavaScript syntax and local HTTP response checked. Browser verification covered tab clicks, arrow-key navigation, installation selection, and clipboard success.
+
+Edit copy in `site/dist/index.html`, styling in `site/dist/styles.css`, and demo behavior in `site/dist/app.js`.
