@@ -12,7 +12,9 @@ Open http://127.0.0.1:4173. Check JavaScript syntax with `npm --prefix site run 
 
 The complete static website is in `site/dist/`. There is no build step. GitHub Pages publishes this directory through `.github/workflows/pages.yml` on every push to `main`, or through a manual workflow run. Relative asset URLs support the repository subpath.
 
-Site URL: https://aqaurius6666.github.io/safe-infra-landing-page/
+Site URL: https://safe-infra.info/
+
+Repository: https://github.com/safeinfra/safe-infra-landing-page
 
 ## Content sources
 
