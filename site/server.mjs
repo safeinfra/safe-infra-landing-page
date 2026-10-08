@@ -1,7 +1,7 @@
 import http from 'node:http';
 import {readFile} from 'node:fs/promises';
-const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',mp4:'video/mp4',jpg:'image/jpeg'};
-const files={'/':'index.html','/styles.css':'styles.css','/app.js':'app.js','/media/env-badge-demo.mp4':'media/env-badge-demo.mp4','/media/env-badge-poster.jpg':'media/env-badge-poster.jpg'};
+const types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',mp4:'video/mp4',jpg:'image/jpeg',svg:'image/svg+xml'};
+const files={'/logo.svg':'logo.svg','/':'index.html','/styles.css':'styles.css','/app.js':'app.js','/media/env-badge-demo.mp4':'media/env-badge-demo.mp4','/media/env-badge-poster.jpg':'media/env-badge-poster.jpg'};
 http.createServer(async(req,res)=>{
   const file=files[new URL(req.url,'http://localhost').pathname];
   if(!file){res.writeHead(404);res.end('Not found');return;}

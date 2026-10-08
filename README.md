@@ -1,6 +1,6 @@
-# Safe Info landing page
+# Safe Infra landing page
 
-A responsive, dependency-free portfolio for four Claude Code plugins. “Safe Info” is a working brand inferred from the workspace name.
+A responsive, dependency-free portfolio for four Claude Code plugins. The Safe Infra brand matches the custom domain safe-infra.info.
 
 ## Run locally
 
