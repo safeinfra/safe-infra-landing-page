@@ -41,4 +41,4 @@ Edit copy in `site/dist/index.html`, styling in `site/dist/styles.css`, and demo
 
 ## About
 
-Safe Infra is an independent project founded by Vũ Nguyễn, not currently a registered legal entity. Founder: https://www.linkedin.com/in/vu-nguyen19/ . Contact: contact@safe-infra.info. GitHub organization: https://github.com/safeinfra .
+Safe Infra is an early-stage developer-tools startup founded by Vu Nguyen, building plugins for AI coding agents. Founder: https://www.linkedin.com/in/vu-nguyen19/ . Contact: contact@safe-infra.info. GitHub organization: https://github.com/safeinfra .
