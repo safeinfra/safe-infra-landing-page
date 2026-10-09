@@ -26,7 +26,7 @@ Descriptions and installation instructions were checked against local source and
 - `codes/personal/2brain`: `hooks/2brain-recall-inject.sh`, README
 - `codes/personal/claude-marketplace`: marketplace manifest, README
 
-The marketplace README marks footprint and 2brain repositories as private; the page reflects that access requirement. Terminal examples use illustrative data, not live infrastructure. No analytics, remote fonts, or external scripts are loaded.
+Footprint is public under the safeinfra organization; 2brain still requires repository access. Installation commands use the safeinfra marketplace. Terminal examples use illustrative data, not live infrastructure. No analytics, remote fonts, or external scripts are loaded.
 
 ## Features and verification
 
@@ -38,3 +38,7 @@ The marketplace README marks footprint and 2brain repositories as private; the p
 - JavaScript syntax and local HTTP response checked. Browser verification covered tab clicks, arrow-key navigation, installation selection, and clipboard success.
 
 Edit copy in `site/dist/index.html`, styling in `site/dist/styles.css`, and demo behavior in `site/dist/app.js`.
+
+## About
+
+Safe Infra is an independent project founded by Vũ Nguyễn, not currently a registered legal entity. Founder: https://www.linkedin.com/in/vu-nguyen19/ . Contact: contact@safe-infra.info. GitHub organization: https://github.com/safeinfra .
