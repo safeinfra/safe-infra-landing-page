@@ -26,7 +26,9 @@ Descriptions and installation instructions were checked against local source and
 - `codes/personal/2brain`: `hooks/2brain-recall-inject.sh`, README
 - `codes/personal/claude-marketplace`: marketplace manifest, README
 
-Footprint is public under the safeinfra organization; 2brain still requires repository access. Installation commands use the safeinfra marketplace. Terminal examples use illustrative data, not live infrastructure. No analytics, remote fonts, or external scripts are loaded.
+The marketplace and footprint are public under the safeinfra organization. env-badge and blast-radius are public under the founder's aqaurius6666 account; their links match the marketplace manifest. 2brain is private under that account and requires repository access to install, so its card links to the public marketplace listing. Installation commands use the safeinfra marketplace. Terminal examples use illustrative data, not live infrastructure. No analytics, remote fonts, or external scripts are loaded.
+
+The footer states: “Independent tools. Not affiliated with Anthropic.”
 
 ## Features and verification
 
