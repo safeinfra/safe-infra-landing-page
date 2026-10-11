@@ -1,0 +1,8 @@
+# Safe Infra - https://safe-infra.info/
+# Allow Googlebot and other crawlers to access all public pages and assets.
+# Keep CSS, JavaScript, images, and video available for page rendering.
+User-agent: *
+Allow: /
+
+# Canonical URLs available for discovery.
+Sitemap: https://safe-infra.info/sitemap.xml

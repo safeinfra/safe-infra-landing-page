@@ -41,6 +41,16 @@ The footer states: “Independent tools. Not affiliated with Anthropic.”
 
 Edit copy in `site/dist/index.html`, styling in `site/dist/styles.css`, and demo behavior in `site/dist/app.js`.
 
+## SEO
+
+- The page targets Claude Code plugins for infrastructure workflows, with descriptive title, description, headings, and visible installation/FAQ content.
+- The canonical URL is `https://safe-infra.info/`. Keep this URL consistent in the HTML metadata, JSON-LD, `robots.txt`, and `sitemap.xml` if the domain changes.
+- Open Graph and Twitter cards use the existing env-badge poster as a share image.
+- JSON-LD describes the organization, website, collection page, and four plugins using only visible, documented facts. It does not claim prices, reviews, or guaranteed rich results.
+- `site/dist/robots.txt` permits crawling and points to `site/dist/sitemap.xml`. The sitemap contains the homepage only; section anchors are not separate pages.
+- After deployment, submit `https://safe-infra.info/sitemap.xml` in Google Search Console and inspect the homepage URL. Search Console verification requires the site owner's account; no verification token is included in this repository.
+- GitHub Pages publishes these files with the rest of `site/dist/`. Changes are local until pushed and deployed.
+
 ## About
 
 Safe Infra is an early-stage developer-tools startup founded by Vu Nguyen, building plugins for AI coding agents. Founder: https://www.linkedin.com/in/vu-nguyen19/ . Contact: contact@safe-infra.info. GitHub organization: https://github.com/safeinfra .
