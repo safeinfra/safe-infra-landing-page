@@ -1,6 +1,6 @@
 # Safe Infra landing page
 
-A responsive, dependency-free portfolio for four Claude Code plugins. The Safe Infra brand matches the custom domain safe-infra.info.
+A responsive, dependency-free portfolio for five Claude Code plugins. The Safe Infra brand matches the custom domain safe-infra.info.
 
 ## Run locally
 
@@ -23,16 +23,17 @@ Descriptions and installation instructions were checked against local source and
 - `codes/claude-env-badge`: `hooks/badge.ts`, README
 - `codes/claude-blast-radius`: `hooks/format.ts`, README
 - `codes/personal/claude-footprint`: `hooks/view.ts`, README
+- `codes/claude-who-approved`: `hooks/who-approved.ts`, README
 - `codes/personal/2brain`: `hooks/2brain-recall-inject.sh`, README
 - `codes/personal/claude-marketplace`: marketplace manifest, README
 
-The marketplace and footprint are public under the safeinfra organization. env-badge and blast-radius are public under the founder's aqaurius6666 account; their links match the marketplace manifest. 2brain is private under that account and requires repository access to install, so its card links to the public marketplace listing. Installation commands use the safeinfra marketplace. Terminal examples use illustrative data, not live infrastructure. No analytics, remote fonts, or external scripts are loaded.
+The marketplace and footprint are public under the safeinfra organization. env-badge, blast-radius, and who-approved are public under the founder's aqaurius6666 account; their links match the marketplace manifest. 2brain is private under that account and requires repository access to install, so its card links to the public marketplace listing. Installation commands use the safeinfra marketplace. Terminal examples use illustrative data, not live infrastructure. No analytics, remote fonts, or external scripts are loaded.
 
 The footer states: “Independent tools. Not affiliated with Anthropic.”
 
 ## Features and verification
 
-- Four interactive terminal examples with keyboard-accessible tabs.
+- Five interactive terminal examples with keyboard-accessible tabs.
 - An 18-second env-badge video with native playback controls, inline mobile playback, and no autoplay. Converted from the repository's `demo/env-badge-demo.gif`; the other plugin repositories had no video assets. The MP4 and poster are stored locally in `site/dist/media/`.
 - Independent plugin cards with repository links.
 - Installation selector and copy button with success/failure feedback.
@@ -53,11 +54,11 @@ Edit copy in `site/dist/index.html`, styling in `site/dist/styles.css`, and demo
 ## SEO
 
 - The page targets Claude Code plugins for AWS, Kubernetes, and DevOps workflows, with descriptive title, description, headings, and visible installation/FAQ content.
-- Related search terms appear naturally in the relevant plugin descriptions and FAQ: AWS CLI profiles, Kubernetes contexts, kubectl, environment badges, Bash deletion impact, rm -rf blast radius, custom dry-run rules, AI coding agent activity tracking, Model Context Protocol (MCP) tool calls, persistent memory, Markdown wiki, Git repository, and the Claude Code plugin marketplace. These are content targets, not claims about measured search volume or rankings.
+- Related search terms appear naturally in the relevant plugin descriptions and FAQ: AWS CLI profiles, Kubernetes contexts, kubectl, environment badges, Bash deletion impact, rm -rf blast radius, tool-call approval audit log, auto-mode classifier, custom dry-run rules, AI coding agent activity tracking, Model Context Protocol (MCP) tool calls, persistent memory, Markdown wiki, Git repository, and the Claude Code plugin marketplace. These are content targets, not claims about measured search volume or rankings.
 - Metadata and social titles describe the same page. No `meta keywords` tag is added: Google Search does not use it. Keyword coverage comes from useful visible content, following the [Google SEO starter guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
 - The canonical URL is `https://safe-infra.info/`. Keep this URL consistent in the HTML metadata, JSON-LD, `robots.txt`, and `sitemap.xml` if the domain changes.
 - Open Graph and Twitter cards use the existing env-badge poster as a share image.
-- JSON-LD describes the organization, website, collection page, and four plugins using only visible, documented facts. It does not claim prices, reviews, or guaranteed rich results.
+- JSON-LD describes the organization, website, collection page, and five plugins using only visible, documented facts. It does not claim prices, reviews, or guaranteed rich results.
 - `site/dist/robots.txt` permits crawling and points to `site/dist/sitemap.xml`. The sitemap contains the homepage only; section anchors are not separate pages.
 - After deployment, submit `https://safe-infra.info/sitemap.xml` in Google Search Console and inspect the homepage URL. Search Console verification requires the site owner's account; no verification token is included in this repository.
 - GitHub Pages publishes these files with the rest of `site/dist/`. Changes are local until pushed and deployed.
